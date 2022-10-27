@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+#wrap {
+	/* 1080*1024 해상도 */
+	/* width: 971px; */	
+	width: 1080px;
+	margin: 0;
+	/* 중앙 정렬 */
+	margin-left: auto;	
+	margin-right: auto;
+}
+
+h2{
+	color: darkorange;	/* 글 색상 */
+}
+
+table {
+	width: 100%;
+	/* 표 테두리와 셀 테두리 사이 간격 : 없애기 */
+	border-collapse: collapse;
+	font-size:12px;
+	line-height:24px;
+}
+
+table td, th {
+	/* 경계선 색상 스타일 굵기 */
+	border: #d3d3d3 solid 1px;	
+	padding: 5px;	/* 안쪽 여백 */
+}
+
+th {
+	background: moccasin;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+}
+
+a {
+	text-decoration: none;	/* 링크 밑줄 없애기 */
+	color:black;			/* 글 색상 */
+}
+
+a:HOVER {
+	text-decoration: underline;	/* 밑줄 */ 
+	color: crimson;			/* 글 색상 */
+	
+}
+::placeholder {
+  color: gainsboro;
+}
